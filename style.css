@@ -3,7 +3,7 @@
 .header {
   border-bottom: 1px solid #ccc;
   position: relative;
-  height: 60px;
+  height: 50px;
   width: 100%;
 }
 .header .container {
@@ -13,9 +13,15 @@
 
 /*Menu hamburguer*/
 
+.menu-wrap {
+  position: relative;
+  height: 60px;
+  display: inline-block;
+  width: 30px;
+}
 .menu-hb {
   cursor: pointer;
-  position: relative;
+  position: absolute;
   top: 1em;
 }
 .menu-hb span {
@@ -37,7 +43,7 @@
 .nav-menu {
   background-color: #fff;
   position: absolute;
-  top: 4em;
+  top: 3em;
   left: 0;
   width: 100%;
 }
